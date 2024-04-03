@@ -30,7 +30,7 @@ docker_setup_env() {
 
     file_env 'MYSQL_AUTOCONF' $MYSQL_DEFAULT_AUTOCONF
     file_env 'MYSQL_HOST' $MYSQL_DEFAULT_HOST
-    file_env 'MYSQL_DNSSEC' 'no'
+    file_env 'MYSQL_DNSSEC' 'yes'
     file_env 'MYSQL_DB' $MYSQL_DEFAULT_DB
     file_env 'MYSQL_PASS' $MYSQL_DEFAULT_PASS
     file_env 'MYSQL_USER' $MYSQL_DEFAULT_USER
